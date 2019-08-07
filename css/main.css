@@ -13,20 +13,14 @@ header {background-image: url(../img/bg-intro.svg);
         background-repeat: no-repeat;
         height: 643px;}
 
-.logo {float: left; display: inline-block;}
+.logo {float: left;}
 
-.wlogo {fill: white;
-        position: relative;
-        z-index: 1;}
+.wlogo {fill: white;}
 
 .key {height: 234px;
       position: relative;
-      top: 200px;
-      display: block;
-      margin: auto;}
+      top: 200px;}
 
-
-
-
+.key-wrapper {display: block; margin: auto;}
 
 }
