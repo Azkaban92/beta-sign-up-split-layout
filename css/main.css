@@ -55,20 +55,20 @@ header {background-image: url(../img/bg-intro.svg);
                        align-items: center;}
 
 .section-a_left-align__h {margin-top: 9px;
-                          color: hsl(243, 87%, 12%);
+                          color: rgb(7, 4, 62);
                           width: 66.94%;
                           margin-bottom: 0;}
 
 .section-a_left-align__p {margin-top: 21px;
                           margin-bottom: 37px;
-                          color: hsl(0, 0%, 50%);
+                          color: rgb(128, 128, 128);
                           width: 66.94%;}
 
 .section-a_left-align__btn {align-self: flex-start;
                             display: block;
                             margin-bottom: 38px;
                             color: white;
-                            background-color: hsl(163, 95%, 43%);
+                            background-color: rgb(5, 214, 155);
                             border: none;
                             padding: 11px 38px;
                             border-radius: 5px;}
