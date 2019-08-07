@@ -24,7 +24,7 @@ header {background-image: url(../img/bg-intro.svg);
                    font-size: 10px;
                    margin-right: 42px;
                    position: relative;
-                   top: -161px;
+                   top: -271px;
                    z-index: 3;}
 
 .fa-facebook-f {margin-left: 23px;
@@ -33,17 +33,15 @@ header {background-image: url(../img/bg-intro.svg);
 .logo {float: left;
        margin-top: 35px;
        margin-left: 41px;
-       top: -161px;
+       top: -271px;
        position: relative;
        z-index: 2;}
 
 .wlogo {fill: white;}
 
 .key {height: 177px;
-      position: relative;
-      top: 111px;
+      margin-top: 111px;
       display: block;
-      margin: auto;
       z-index: 1;}
 
 .key-wrapper {width: 100%;
