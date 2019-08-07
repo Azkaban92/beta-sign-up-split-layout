@@ -14,7 +14,8 @@ header {background-image: url(../img/bg-intro.svg);
         background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
-        height: 443px;}
+        height: 443px;
+        margin-top: 0;}
 
 .section-a__icons {margin-top: 50px;
                    margin-left: 0px;
