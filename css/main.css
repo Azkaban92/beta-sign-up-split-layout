@@ -17,7 +17,7 @@ header {background-image: url(../img/bg-intro.svg);
         height: 443px;
         margin-top: 0;}
 
-.section-a__icons {margin-top: 50px;
+.section-a__icons {padding-top: 50px;
                    margin-left: 0px;
                    float: right;
                    color: white;
@@ -31,7 +31,7 @@ header {background-image: url(../img/bg-intro.svg);
                 margin-right:23px;}
 
 .logo {float: left;
-       margin-top: 35px;
+       padding-top: 35px;
        margin-left: 41px;
        top: -271px;
        position: relative;
