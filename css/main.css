@@ -14,7 +14,7 @@ header {background-image: url(../img/bg-intro.svg);
         height: 443px;}
 
 .section-a__icons {display: inline;
-                   margin-top: 42px;
+                   margin-top: 50px;
                    margin-left: 41px;
                    float: right;
                    color: white;
@@ -36,12 +36,14 @@ header {background-image: url(../img/bg-intro.svg);
 
 .key {height: 177px;
       position: relative;
-      top: 161px;
+      top: 111px;
       display: block;
       margin: auto;
       z-index: 1;}
 
-.key-wrapper {width: 100%;}
+.key-wrapper {width: 100%;
+              justify-content: center;
+              display: flex;}
 
 .section-a_left-align {display: flex;
                        flex-flow: column nowrap;
@@ -81,4 +83,23 @@ header {background-image: url(../img/bg-intro.svg);
 .wrapper-a {text-align: right;}
 
 
+}
+
+@media screen and (min-width: 1200px)
+
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 }
