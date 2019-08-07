@@ -1,4 +1,7 @@
 
+.section-a_left-align__h {font-family: "Raleway"; font-weight: 700;}
+.section-a_left-align__p {font-family: "Open Sans";}
+
 @media screen and (max-width: 767px)
 
 {
@@ -13,14 +16,14 @@ header {background-image: url(../img/bg-intro.svg);
         background-repeat: no-repeat;
         height: 443px;}
 
-.section-a__icons {display: inline;
-                   margin-top: 50px;
-                   margin-left: 41px;
+.section-a__icons {margin-top: 50px;
+                   margin-left: 0px;
                    float: right;
                    color: white;
                    font-size: 10px;
                    margin-right: 42px;
                    position: relative;
+                   top: -161px;
                    z-index: 3;}
 
 .fa-facebook-f {margin-left: 23px;
@@ -29,7 +32,8 @@ header {background-image: url(../img/bg-intro.svg);
 .logo {float: left;
        margin-top: 35px;
        margin-left: 41px;
-       position: absolute;
+       top: -161px;
+       position: relative;
        z-index: 2;}
 
 .wlogo {fill: white;}
@@ -51,7 +55,8 @@ header {background-image: url(../img/bg-intro.svg);
 
 .section-a_left-align__h {margin-top: 9px;
                           color: hsl(243, 87%, 12%);
-                          width: 66.94%;}
+                          width: 66.94%;
+                          margin-bottom: 0;}
 
 .section-a_left-align__p {margin-top: 21px;
                           margin-bottom: 37px;
@@ -98,8 +103,4 @@ header {background-image: url(../img/bg-intro.svg);
 
 
 
-
-
-
-  
 }
