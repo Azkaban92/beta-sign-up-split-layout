@@ -11,16 +11,23 @@ header {background-image: url(../img/bg-intro.svg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 643px;}
+        height: 443px;}
 
-.logo {float: left;}
+.logo {float: left;
+       margin-top: 35px;
+       margin-left: 41px;
+       position: absolute;
+       z-index: 2;}
 
 .wlogo {fill: white;}
 
-.key {height: 234px;
+.key {height: 177px;
       position: relative;
-      top: 200px;}
+      top: 161px;
+      display: block;
+      margin: auto;
+      z-index: 1;}
 
-.key-wrapper {display: block; margin: auto;}
+.key-wrapper {width: 100%;}
 
 }
