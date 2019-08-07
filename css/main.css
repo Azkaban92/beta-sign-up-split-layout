@@ -8,10 +8,23 @@ body {margin: 0px;
       font-size: 16px;}
 
 header {background-image: url(../img/bg-intro.svg);
-        background-size: cover;
+        background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
         height: 443px;}
+
+.section-a__icons {display: inline;
+                   margin-top: 42px;
+                   margin-left: 41px;
+                   float: right;
+                   color: white;
+                   font-size: 10px;
+                   margin-right: 42px;
+                   position: relative;
+                   z-index: 3;}
+
+.fa-facebook-f {margin-left: 23px;
+                margin-right:23px;}
 
 .logo {float: left;
        margin-top: 35px;
@@ -29,5 +42,43 @@ header {background-image: url(../img/bg-intro.svg);
       z-index: 1;}
 
 .key-wrapper {width: 100%;}
+
+.section-a_left-align {display: flex;
+                       flex-flow: column nowrap;
+                       align-items: center;}
+
+.section-a_left-align__h {margin-top: 9px;
+                          color: hsl(243, 87%, 12%);
+                          width: 66.94%;}
+
+.section-a_left-align__p {margin-top: 21px;
+                          margin-bottom: 37px;
+                          color: hsl(0, 0%, 50%);
+                          width: 66.94%;}
+
+.section-a_left-align__btn {align-self: flex-start;
+                            display: block;
+                            margin-bottom: 38px;
+                            color: white;
+                            background-color: hsl(163, 95%, 43%);
+                            border: none;
+                            padding: 11px 38px;
+                            border-radius: 5px;}
+
+.section-a_left-align__input {border: 2px solid;
+                              border-image-source: linear-gradient(to top, #f0f0f0, white);
+                              border-image-slice: 1;
+                              margin-bottom: 14px;}
+
+.section-a_left-align__btn-wrapper {width: 66.94%;}
+
+.sign-h {margin-top: 0;
+         margin-bottom: 14px;}
+
+.section-a__a {padding-bottom: 33px;
+               color: hsl(243, 87%, 12%);}
+
+.wrapper-a {text-align: right;}
+
 
 }
