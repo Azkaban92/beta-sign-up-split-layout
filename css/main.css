@@ -93,7 +93,7 @@ body {margin: 0px;
 
 }
 
-@media screen and (min-width: 1200px)
+@media screen and (min-width: 1440px)
 
 {
 
@@ -121,20 +121,39 @@ html, body {height: 100%;}
               height: 100%;
               width: 52.78%;}
 
-.section-a_left-align {width: 76.44%;}
+.section-a_left-align {width: 80.44%;}
 
 .logo-wrapper {align-self: flex-start;
-               margin-left: 12%;
+               margin-left: 10%;
                position: relative;
                top: -200px;}
 
 .section-a__icons {align-self: flex-end;
-                  margin-right: 14%;
+                  margin-right: 11%;
                   position: relative;
                   top: -230px;}
 
-.fa-facebook-f {margin: 0 45px;}
+.fa-facebook-f {margin: 0 45px; color: #070439;}
 
+.section-a_left-align__h {color: #070439;}
+
+.section-a_left-align__p {color: #808080;}
+
+.section-a_left-align__input {width: 380px;
+                              height: 72px;
+                              border: 2px solid;
+                              border-image-source: linear-gradient(to top, #f0f0f0, white);
+                              border-image-slice: 1;}
+
+.section-a_left-align__btn {padding: 29px 69px;
+                            margin-left: 21px;
+                            border: none;
+                            background-color: #06d79d;
+                            color: white;
+                            position: relative;
+                            top: 2px;}
+
+.section-a__a {position: relative; left: 82.44%; top: 185px;}
 
 
 
