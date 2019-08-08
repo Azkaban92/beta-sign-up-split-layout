@@ -93,11 +93,11 @@ body {margin: 0px;
 
 }
 
-@media screen and (min-width: 1440px)
+@media screen and (min-width: 1200px) and (max-width: 1920px)
 
 {
 
-html, body {height: 100%;}
+html, body {height: 100%; margin: 0;}
 
 .section-a {display: flex;
             flex-flow: row nowrap;
@@ -112,28 +112,31 @@ html, body {height: 100%;}
               justify-content: center;
               background-image: linear-gradient(to left, #1a1275, #6560b2);
               height: 100%;
-              width: 47.22%;}
+              width: 40.22%;}
 
 .column-right {display: flex;
               flex-flow: column nowrap;
               align-items: center;
               justify-content: center;
               height: 100%;
-              width: 52.78%;}
+              width: 59.78%;}
+
+.key {height: 400px;}
 
 .section-a_left-align {width: 80.44%;}
 
 .logo-wrapper {align-self: flex-start;
                margin-left: 10%;
                position: relative;
-               top: -200px;}
+               top: -100px;}
 
 .section-a__icons {align-self: flex-end;
                   margin-right: 11%;
                   position: relative;
-                  top: -230px;}
+                  top: -130px;}
 
-.fa-facebook-f {margin: 0 45px; color: #070439;}
+.fa-facebook-f {margin: 0 45px;
+                color: #070439;}
 
 .section-a_left-align__h {color: #070439;}
 
@@ -145,7 +148,7 @@ html, body {height: 100%;}
                               border-image-source: linear-gradient(to top, #f0f0f0, white);
                               border-image-slice: 1;}
 
-.section-a_left-align__btn {padding: 29px 69px;
+.section-a_left-align__btn {padding: 29px 59px;
                             margin-left: 21px;
                             border: none;
                             background-color: #06d79d;
@@ -153,8 +156,9 @@ html, body {height: 100%;}
                             position: relative;
                             top: 2px;}
 
-.section-a__a {position: relative; left: 82.44%; top: 185px;}
-
+.section-a__a {position: relative;
+               left: 82.44%;
+               top: 100px;}
 
 
 
