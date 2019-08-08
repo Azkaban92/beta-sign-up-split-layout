@@ -1,7 +1,7 @@
 
 .section-a_left-align__h {font-family: "Raleway"; font-weight: 700;}
-.section-a_left-align__p {font-family: "Open Sans";}
-
+.section-a_left-align__p,
+.section-a__a {font-family: "Open Sans";}
 @media screen and (max-width: 767px)
 
 {
@@ -73,7 +73,8 @@ body {margin: 0px;
                             background-color: rgb(5, 214, 155);
                             border: none;
                             padding: 11px 38px;
-                            border-radius: 5px;}
+                            border-radius: 5px;
+                            font-weight: 700;}
 
 .section-a_left-align__input {border: 2px solid;
                               border-image-source: linear-gradient(to top, #f0f0f0, white);
@@ -154,7 +155,8 @@ html, body {height: 100%; margin: 0;}
                             background-color: #06d79d;
                             color: white;
                             position: relative;
-                            top: 2px;}
+                            top: 2px;
+                            font-weight: 700;}
 
 .section-a__a {position: relative;
                left: 82.44%;
